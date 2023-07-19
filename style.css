@@ -221,12 +221,24 @@
   .online-game-img img{
     width:100%;
   }
+  
+  .btn-play{
+    
+    font-size: 40px;
+    position:absolute;
+    top: 170%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    
+  }
+
   .online-game-img p{
     
     color: #534C64;
     font-size: 14px;
     font-weight: 500;
     line-height:20px;
+    
   }
 
   /* online game section end  */
