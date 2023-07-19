@@ -34,7 +34,9 @@
    
     }
 
-    body{  font-family: 'Work Sans', sans-serif;}
+    body{  font-family: 'Work Sans', sans-serif;
+           color:  #534C64;
+    }
 
     *{
         margin: 0;
@@ -171,10 +173,65 @@
 
  /* banner section end  */
 
+  /* online game section start  */
+
+  .onlin-container{
+
+    margin: 70px 240px;
 
 
+  }
+
+  .online-game-cotent{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .online-game-cotent h3{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
 
 
+  .online-game-cotent p{
+
+    font-size: 12px;
+
+  }
+
+  .online-game-img{
+    display: grid;
+    gap: 18px;
+    grid-template-columns:repeat(4,1fr)
+    
+  }
+  .online-game-img img{
+    width:100%;
+  }
+  .online-game-img p{
+    
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:20px;
+  }
+
+  /* online game section end  */
+  
+  
+
+  
 
 
 
@@ -235,6 +292,33 @@
  }
 
  /* end bener  */
+
+ /* online game section start  */
+  
+ .online-game-img{
+    grid-template-columns: repeat(1,1fr);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+   
+  }
+
+  .online-game-cotent{
+    text-align: center;
+  }
+  .onlin-container{
+    margin:70px 0px;
+    text-align: center;
+  }
+
+  .online-game-cotent h3{
+    font-size: 30px;
+  }
+  .funny-videos{
+    font-size: 30px;
+  }
+
+ /* online game section end  */
 
 }
 
@@ -315,6 +399,34 @@
  }
 
  /* end banner  */
+
+ /* online game section start  */
+ .online-game-img{
+    grid-template-columns: repeat(1,1fr);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+   
+  }
+
+  .online-game-cotent{
+    text-align: center;
+  }
+  .onlin-container{
+    margin:70px 0px;
+    text-align: center;
+  }
+
+  .online-game-cotent h3{
+    font-size: 30px;
+  }
+  .funny-videos{
+    font-size: 30px;
+  }
+  .online-game-img{
+    padding-bottom: 20px;
+  }
+ /* online game section end  */
 
 
 
